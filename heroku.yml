@@ -1,5 +1,6 @@
 setup:
-  env_file: ./.env.prod
+  config:
+    env_file: ./.env.prod
 
 build:
   docker:
