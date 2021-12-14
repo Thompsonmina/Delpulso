@@ -1,6 +1,9 @@
 build:
   docker:
     web: Dockerfile.prod
+    env_file:
+      - ./.env.prod
+
 
 run:
   web: gunicorn config.wsgi:application --bind 0.0.0.0:$PORT
