@@ -1,9 +1,9 @@
 from .base import *
 import dj_database_url
 
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', "sheltered-atoll-07813"]
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', "sheltered-atoll-07813.herokuapp.com"]
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
