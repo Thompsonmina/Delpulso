@@ -4,7 +4,7 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.getenv("SECRET_KEY", 'django-insecure-u9jh+k(+m$$x8#0ryhqoucnjtq82jm!$ni0xlj(j)^c=urfksc')
+SECRET_KEY = os.getenv("SECRET_KEY",)
 
 ALLOWED_HOSTS = []
 
